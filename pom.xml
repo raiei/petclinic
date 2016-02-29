@@ -370,7 +370,6 @@
                 <version>${cobertura.version}</version>
                 <configuration>
 		    <formats>
-           		<format>html</format>
            		<format>xml</format>
        		    </formats>
                     <check/>
@@ -378,6 +377,7 @@
                 <executions>
                     <execution>
                         <goals>
+                            <goal>cobertura</goal>
                             <goal>clean</goal>
                             <goal>check</goal>
                         </goals>
