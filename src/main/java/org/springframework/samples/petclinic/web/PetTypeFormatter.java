@@ -60,7 +60,7 @@ public class PetTypeFormatter implements Formatter<PetType> {
                 return type;
             }
         }
-        throw new ParseException("type not found: " + text, 0);
+        throw new ParseException("pet type not found: " + text, 0);
     }
 
 }
